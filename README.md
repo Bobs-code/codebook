@@ -8,19 +8,19 @@ This codebook will be used to compile important info and examples of code concep
 
 There are specific resources I will use that I will stick to during the course of my learning various subjects(*an X denotes completed resource*): 
 
-1. JavaScipt
+#### 1. JavaScipt
 * Learning With Leon's Resources
 * LinkedIn Learning
 * Eloquent JavaScript
 
-2. PHP
+#### 2. PHP
 * Laracasts
 * LinkedIn
 
-3. Go
+#### 3. Go
 * HeadFirst Go
 
-4. C 
+#### 4. C 
 * HeadFirst C
 
 ## Directory Reference
