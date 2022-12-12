@@ -1,7 +1,8 @@
 /**
  *
  * ********* Properties **************:
- * arr.length - returns the length of the array
+ * arr.length - returns the length of the array.
+ *
  ******** Methods Covered ******
  * ADD AND REMOVE
  * arr.splice()
@@ -11,6 +12,9 @@
  * arr.includes()
  * arr.sort()
  * arr.reverse()
+ * arr.find()
+ * arr.findIndex()
+ *
  *
  * ITERATE
  *arr.forEach()
