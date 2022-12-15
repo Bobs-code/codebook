@@ -14,6 +14,7 @@
  * arr.reverse()
  * arr.find()
  * arr.findIndex()
+ * arr.filter()
  *
  *
  * ITERATE
@@ -95,10 +96,9 @@ let thirdArr = {
 console.log('forEACH METHOD');
 /** arr.forEach(function(item, index, array)){
  * }
- 
  */
-
 let characters = ['Gandalf', 'Bilbo', 'Nazgul', 'Orcs'];
+
 
 // characters.forEach((item, index) => {
 //   console.log(
@@ -124,6 +124,7 @@ console.log('SORT METHOD');
 // Compare Function - compares two values and returns a number based on the comparison between the two values (a - b) or (b - a). If the result is negative, a is less than b and the array will be placed in order from highest to lowest. If the result is positive, a is greater than b. If the result is 0, a and b are equal.
 grades.sort((a, b) => a - b);
 // console.log(grades);
+
 grades.sort((a, b) => b - a);
 // console.log(grades);
 
@@ -150,3 +151,22 @@ const overNinety = students.find((student) => student.grade > 85);
 // sort the students array by grade
 students.sort((a, b) => a.grade - b.grade);
 // console.log(students);
+
+console.log('FILTER METHOD');
+//Returns an array of all matching elements. So in effect we want to filter out everything that is similar
+
+let results = arr.filter(funciton(item, index, array){
+
+});
+
+let users = [
+	{id: 1, name: "John"},
+	{id: 2, name: "Pete"},
+	{id: 3, name: "Mary"}
+];
+
+let someUsers = users.filter(item => item.id < 3);
+
+console.log(someUsers.length); // 2
+
+
