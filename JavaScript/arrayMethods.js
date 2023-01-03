@@ -99,7 +99,6 @@ console.log('forEACH METHOD');
  */
 let characters = ['Gandalf', 'Bilbo', 'Nazgul', 'Orcs'];
 
-
 // characters.forEach((item, index) => {
 //   console.log(
 //     `${item} is a character in Lord of the Rings. In this array its index is ${index}.`
@@ -155,18 +154,37 @@ students.sort((a, b) => a.grade - b.grade);
 console.log('FILTER METHOD');
 //Returns an array of all matching elements. So in effect we want to filter out everything that is similar
 
-let results = arr.filter(funciton(item, index, array){
+// let results = arr.filter(funciton(item, index, array){
 
-});
+// });
 
 let users = [
-	{id: 1, name: "John"},
-	{id: 2, name: "Pete"},
-	{id: 3, name: "Mary"}
+  { id: 1, name: 'John' },
+  { id: 2, name: 'Pete' },
+  { id: 3, name: 'Mary' },
 ];
 
-let someUsers = users.filter(item => item.id < 3);
+let someUsers = users.filter((item) => item.id < 3);
 
 console.log(someUsers.length); // 2
 
+console.log('SPLIT METHOD');
+// Splits a string into an array by the given delimiter (delim).
 
+let lordOfTheNames = 'Bilbo, Gandalf, Nazgul';
+
+let arrLord = lordOfTheNames.split(', ');
+console.log(arrLord);
+
+function camelize(string) {
+  string
+    .split('-')
+    .map(
+      //
+      (word, index) =>
+        index == 0 ? word : word[0].toUpperCase() + word.slice(1)
+    )
+    .join('');
+}
+
+console.log(camelize('my-string'));
