@@ -3,6 +3,9 @@
 - Data structure encapsulating both data and methods
 - each are independent and can be typed custom
 
+
+```go
+
 func main() {
 	// Creating an instance of the struct. 
 	// Sort of like constructors in other languages
@@ -26,3 +29,5 @@ type Dog struct {
 
 
 }
+
+```
