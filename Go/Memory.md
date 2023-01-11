@@ -38,4 +38,4 @@ m["theAnswer"] = 42
 
 ## Further Information
 
-- (Go Docs)[https://golang.org/pkg/runtime]
+- [Go Docs](https://golang.org/pkg/runtime)
